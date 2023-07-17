@@ -1,6 +1,6 @@
 
-# dataBases2
-# DataBases2 Project
+# dataBases2  Project
+
 
 ## Description
 The aim of the DataBases2 project is to build upon the concepts explored in DataBases1 and further expand the integration of databases with additional technologies such as Servlets and a local server (Tomcat). This project demonstrates the development of a database-driven application and showcases how various components synergize to create a robust and dynamic web application.
