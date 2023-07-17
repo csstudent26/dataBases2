@@ -43,19 +43,23 @@ To get started with the DataBases2 project, follow these steps:
 
 Replace `<repository URL>` with the actual URL of your DataBases2 project repository.
 
-### 2. Set up the local server (Tomcat)
+### 2. Set up the local server and IDE (e.g., Eclipse)
 - Download and install Tomcat from the official website: [Tomcat Downloads](https://tomcat.apache.org/download.cgi)
 - Configure Tomcat to run on your local machine.
-- Deploy the DataBases2 project on the Tomcat server.
+- Import the DataBases2 project into your preferred IDE (e.g., Eclipse).
 
 ### 3. Set up the database
 - Create a MySQL database to store the necessary data.
 - Modify the database connection settings in the project's configuration files.
 
-### 4. Build and run the project
-- Compile the Java source files.
-- Start the local server (Tomcat) and deploy the project.
-- Access the application through a web browser.
+### 4. Build and run the project using the IDE
+- Within your IDE (e.g., Eclipse), compile the Java source files.
+- Start the local server (Tomcat) from the IDE and deploy the project.
+- Access the application through the web browser within your IDE (e.g., Eclipse) by launching it with the supported browsers (including Tomcat) provided by Eclipse.
+
+
+Note: The DataBases2 project contains Servlets, which require a web container such as Tomcat to function correctly. Running the project from a terminal may not be feasible due to the specific dependencies and runtime environment required by Servlets.
+
 
 
 
