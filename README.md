@@ -25,3 +25,26 @@ To get started with the DataBases2 project, follow these steps:
 
 ### 1. Clone the repository
 
+Replace `<repository URL>` with the actual URL of your DataBases2 project repository.
+
+### 2. Set up the local server (Tomcat)
+- Download and install Tomcat from the official website: [Tomcat Downloads](https://tomcat.apache.org/download.cgi)
+- Configure Tomcat to run on your local machine.
+- Deploy the DataBases2 project on the Tomcat server.
+
+### 3. Set up the database
+- Create a MySQL database to store the necessary data.
+- Modify the database connection settings in the project's configuration files.
+
+### 4. Build and run the project
+- Compile the Java source files.
+- Start the local server (Tomcat) and deploy the project.
+- Access the application through a web browser.
+
+
+
+
+
+
+
+
