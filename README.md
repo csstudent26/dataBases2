@@ -21,11 +21,21 @@ The aim of the DataBases2 project is to build upon the concepts explored in Data
 - Improved user experience with dynamic content generation and interactivity.
 ## General Notes
 
+
 - The DataBases2 project is not a traditional Java project; it is a Dynamic Web Project. The IDE being used, such as Eclipse IDE, allows for the creation of such a project.
 - The project uses Servlets, which means the Java code will be different from a standard Java project. For example, a main method is not used, and certain conditions must be observed when working with Servlets.
 - It is necessary to have a local server installed on your system to run the project. In this case, Tomcat is being used.
 - When creating the project, the IDE will provide a choice of servers, including Tomcat (assuming it has been downloaded and installed). A folder named 'Server Runtime [Apache Tomcat _ _]' will be automatically added to the project.
 - In addition to the Tomcat server, a JDBC connection needs to be added to connect the program to the database. In my experience, the JDBC connector (a Java file) can be added to the 'Server Runtime' folder. Otherwise, you may encounter a 'no suitable driver found' error.
+
+- 1. The project consists of the following components:
+   - A Java file that contains the Servlet implementation.
+   - A folder named "Images" for the JPG files being used.
+   - Another folder named "Css26" for the CSS code.
+
+2. GitHub Pages does not support running projects of this nature. The project requires a local server (such as Tomcat) for deployment.
+
+3. After downloading the Java file and the two folders, you should place them in the correct location within your Dynamic Web Project hierarchy. In Eclipse, this is typically inside the "webapp" folder (which may be called "Web Content" in some versions of Eclipse).
 ## Getting Started
 To get started with the DataBases2 project, follow these steps:
 
