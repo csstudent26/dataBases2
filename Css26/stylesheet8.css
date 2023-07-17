@@ -1,0 +1,79 @@
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  form {
+    width: 33%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  /* Styling the form container */
+.container form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Styling form labels */
+.container form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styling form input fields */
+.container form input[type="date"],
+.container form input[type="number"],
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="tel"],
+.container form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling form submit button */
+.container form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styling form submit button on hover */
+.container form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.look {
+  word-spacing: 10px; /* Adjust the value as needed to add more space */
+}
+
+
+
+  
+
+
