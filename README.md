@@ -19,7 +19,13 @@ The aim of the DataBases2 project is to build upon the concepts explored in Data
 - Utilization of a local server (Tomcat) to host and deploy the application.
 - Extended database interactions to support advanced CRUD (Create, Read, Update, Delete) operations.
 - Improved user experience with dynamic content generation and interactivity.
+## General Notes
 
+- The DataBases2 project is not a traditional Java project; it is a Dynamic Web Project. The IDE being used, such as Eclipse IDE, allows for the creation of such a project.
+- The project uses Servlets, which means the Java code will be different from a standard Java project. For example, a main method is not used, and certain conditions must be observed when working with Servlets.
+- It is necessary to have a local server installed on your system to run the project. In this case, Tomcat is being used.
+- When creating the project, the IDE will provide a choice of servers, including Tomcat (assuming it has been downloaded and installed). A folder named 'Server Runtime [Apache Tomcat _ _]' will be automatically added to the project.
+- In addition to the Tomcat server, a JDBC connection needs to be added to connect the program to the database. In my experience, the JDBC connector (a Java file) can be added to the 'Server Runtime' folder. Otherwise, you may encounter a 'no suitable driver found' error.
 ## Getting Started
 To get started with the DataBases2 project, follow these steps:
 
